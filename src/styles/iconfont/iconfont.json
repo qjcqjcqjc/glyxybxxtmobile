@@ -1,0 +1,51 @@
+{
+  "id": "1369090",
+  "name": "gybx_m",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "桂医报修手机端icon",
+  "glyphs": [
+    {
+      "icon_id": "5934179",
+      "name": "授权失败",
+      "font_class": "shouquanshibai",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "12283438",
+      "name": "404",
+      "font_class": "404",
+      "unicode": "e6b7",
+      "unicode_decimal": 59063
+    },
+    {
+      "icon_id": "13960966",
+      "name": "404",
+      "font_class": "404-1",
+      "unicode": "e623",
+      "unicode_decimal": 58915
+    },
+    {
+      "icon_id": "9479004",
+      "name": "无权限",
+      "font_class": "wuquanxian1",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "11558702",
+      "name": "无权限",
+      "font_class": "wuquanxian",
+      "unicode": "e79e",
+      "unicode_decimal": 59294
+    },
+    {
+      "icon_id": "5584965",
+      "name": "无数据",
+      "font_class": "wushuju",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    }
+  ]
+}

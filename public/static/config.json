@@ -1,0 +1,10 @@
+{
+  "title":    "桂林医学院报修系统",
+//  "api":      "http://yiban.gxun.edu.cn/bx",
+  "api":     "https://localhost:8089/",
+  "bxdimg":   "http://yiban.gxun.edu.cn/bx/bxdimg",
+//  "redirect": "http://yiban.gxun.edu.cn/bx/index.jsp",
+  "redirect": "http://localhost:8089/index",
+  "jdrtime": 0,
+  "shytime": 0
+}
