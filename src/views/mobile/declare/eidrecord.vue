@@ -87,7 +87,7 @@
           eid: this.authInfo.eid
         }).then(res => {
           if (res.obj && res.obj.blist) {
-            this.blist = res.blist
+            this.blist = res.obj.blist
           } else {
             this.$notify({ type: 'warning', message: '数据异常', duration: 1000 })
           }

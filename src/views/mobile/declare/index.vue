@@ -313,7 +313,7 @@
         let params = filterParams(this.bxdParams)
         await BxdServlet(params).then(response => {
           if (response.obj.blist) {
-            this.$store.commit('sbr/SET_BLIST', response.blist)
+            this.$store.commit('sbr/SET_BLIST', response.obj.blist)
           }
         }).catch(() => {
           this.$message.error('查询出错')

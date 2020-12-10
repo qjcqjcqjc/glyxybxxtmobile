@@ -458,7 +458,7 @@
         }).then(response => {
           this.toast.clear()
           if (response.obj.blist && response.obj.blist.length > 0) {
-            this.bxdInfo = response.blist[0]
+            this.bxdInfo = response.obj.blist[0]
             this.resetBxdInfo()
           }
         }).catch(() => {

@@ -24,9 +24,9 @@ const actions = {
         eid: authInfo.eid	// 扫码查询
       }
       BxdServlet(filterParams(params)).then(response => {
-        const {blist} = response.obj.blist
-        if (blist) {
-          commit('SET_BLIST', blist)
+        // const {blist} = response.obj.blist
+        if (response.obj.blist) {
+          commit('SET_BLIST', response.obj.blist)
           resolve()
         } else {
           responseErrorNotify(response.status)
