@@ -395,8 +395,8 @@
         await HcServlet({
             op: 'selhc'
           }).then(res => {
-            if (res && res.hlist) {
-              this.hclist = res.hlist.map(item => {
+            if (res.obj && res.obj.hlist) {
+              this.hclist = res.obj.hlist.map(item => {
                 return {
                   id: item.id,
                   mc: item.mc,
@@ -432,8 +432,8 @@
           bid: id
         }).then(response => {
           this.toast.clear()
-          if (response.blist && response.blist.length > 0) {
-            this.bxdInfo = response.blist[0]
+          if (response.obj.blist && response.obj.blist.length > 0) {
+            this.bxdInfo = response.obj.blist[0]
             this.resetBxdInfo()
           }
         }).catch(() => {
